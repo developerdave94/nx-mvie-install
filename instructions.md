@@ -3,8 +3,12 @@
 ## Setting Up the Host VM
 Insert Description
 > NOTE
+
+### Obtaining VMWare Fusion 12 Pro
   1. Send an email to atwreqs@us.ibm.com with the following information to request access to VMWare Fusion 12 Pro.</br>
     a. Job Role (ex. Solutions Engineer)</br>
     b. Request Reason (ex. MVI Edge Client Demo Install)</br> 
     c. Lotus Notes ID (ex. John Doe/Location/IBM)</br>
     d. Operating System (ex. MacOS)</br>
+  2. Within 3 days you'll receive an email containing a license key and a link to download VMWare Fusion 12 Pro. Download the software and upon configuration</br>
+     you'll be prompted to enter you license key. 
