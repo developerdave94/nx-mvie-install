@@ -35,7 +35,7 @@ Insert Description
 
 ## Flashing the Jetson Xavier NX
 
-### Preparing and Executing the Flash
+### Preparing and Executing the Disk Flash
   1. On the VM, download the following .zip file (https://ibm.box.com/v/ssd-disk-mount). Once the download is complete, Right Click the .zip and Extract this to the Desktop location. This should expose the MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2 file.
   2. Open up the casing surrounding the Jetson Xavier NX to expose the Micro USB and REC Button (as shown below).</br>  
 ![Hatch Internals](images/hatch_internals.png)  </br>
@@ -49,3 +49,10 @@ Insert Description
   5. In the Terminal, type `cd Desktop` and `sudo tar xvpf MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2` to extract the BSP. Once you've done that, type `cd MIC-710AIX_NX_4.6_V0.2` and `sudo ./nvmflash.sh`. This should begin the flash process which takes about 15 to 20 mins. It should look as follows `Start flashing device: 1-2, PID: XXXX   Ongoing processes: XXXX`.
   6. During the boot process, you'll notice a prompt asking you to Select a Storage to Boot or Install OS. Enter `2` which is the dev/sda. Let the boot process continue until you're brought to the home screen.
   7. Validate that the /dev/sda (which represents the attached SATA SDD) is mounted as the Filesystem Root by typing `df -h` into the Terminal on the Jetson NX. You should see something like this `/dev/sda1  229G  14G 204G  7%  /`.
+
+</br>
+
+## Installing the CUDA Toolkit via NVIDIA's SDK Manager
+
+### Downloading the SDK Manager on the Host VM and Flashing the Jetson NX
+  1. 
