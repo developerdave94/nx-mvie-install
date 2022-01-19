@@ -55,4 +55,4 @@ Insert Description
 ## Installing the MVI Edge Pre-Requisites
 
 ### Installing the CUDA Toolkit via NVIDIA's SDK Manager
-  1. On the Ubuntu VM, go to (https://developer.nvidia.com/nvidia-sdk-manager) and download the NVIDIA SDK Manager 1.7.2 Ubuntu .deb file.
+  1. On the Ubuntu VM, go to (https://developer.nvidia.com/nvidia-sdk-manager) and download the NVIDIA SDK Manager 1.7.2 Ubuntu .deb.
