@@ -41,4 +41,5 @@ Insert Description
 Side Screws</br>
 ![Side Screws](images/side_screws.png)  
 Bottom Screws</br>
-![Bottom Screws](images/bottom_screws.png)
+![Bottom Screws](images/bottom_screws.png) 
+  3.
