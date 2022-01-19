@@ -45,4 +45,5 @@ Insert Description
     c. Hold the REC Button while plugging in the Power Cable</br>
     d. Continue to hold the REC Button for 5s</br>
     e. Release the REC Button</br>
-  4. 
+  4. Your PC should then ask whether you'd like to Connect to PC or Connect to Linux. Select Connect to Linux. To confirm that the Jetson NX is connected, open up the Terminal in the VM and type `lsusb`. The output should show something similar to this `Bus Device 003 ID: 0955:7e19 NVidia Corp.`.
+  5. 
