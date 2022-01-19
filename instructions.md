@@ -73,5 +73,11 @@ Insert Description
 
 ## Installing the MVI Edge Application
 
-### Pull Container Image From IBM Container Registry
-  1. Login to the IBM Container 
+### Pull Container Images From IBM Container Registry
+  1. Login to the IBM Container Registry (https://myibm.ibm.com/products-services/containerlibrary) and Copy Entitlement Key. Open up the Terminal on the Jetson NX and type `sudo docker login cp.icr.io --username cp --password <entitlement key>` where `<entitlement key>` must be replaced with what you just copied. Once you've run that command you should see `Login Succeeded`.
+  2. Go to the Root Install Directory by typing `cd /opt/ibm/vision-edge`. Type the following command to pull the container images: `sudo docker run --rm -v 'pwd':/opt/ibm/vision-edge -e hostname='hostname -f' --privileged - u root cp.icr.io/cp/visualinspection/vision-edge-inception:8.4.0`. 
+
+### Build the MVI Edge Application
+  1. In the Terminal on the Jetson NX while still in the /opt/ibm/vision-edge directory, run the following command: `sudo ./startedge.sh`. A License Agreement will then be displayed. Hit Enter until you've reached the end and type `YES`. The application will now start to build. This could take up to 10 mins.
+  2. Once finished, the Terminal will present a Username, Password, and URL. IMPORTANT: Be sure to save the Password as it will not be shown again.
+  3. Take the URL and use it in the Chromium Browser to launch MVI Edge!!
