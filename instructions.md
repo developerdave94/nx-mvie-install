@@ -36,5 +36,4 @@ Insert Description
 ## Flashing the Jetson Xavier NX
 
 ### Preparing and Executing the Flash
-
-! (https://ibm.box.com/v/bottomscrews)
+  1.
