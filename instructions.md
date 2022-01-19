@@ -18,5 +18,5 @@ Insert Description
   2. Launch VMWare Fusion and in the top right corner hit the Plus Sign and select New. From there you'll be asked to select the Installation Method. Drag and drop the recently downloaded ISO to where it says 'Install From Disc or Image'. The ISO should now appear under the Create New Virtual Machine window. Hit Continue.
   3. Provide a Display Name, Account Name, and Password. Choose anything you'd like, but it's recommended to keep it simple (ex. ubuntu). Hit Continue and Finish. Save the VM as 'ubuntu-18.04.6' in the Virtual Machines folder and hit Save. Your VM should start building immediately and once finished, go ahead and login.     
 
-### Using GParted to Partition Logical Volume (LVM)
-  1. 
+### Using GParted to Increase Disk Space
+  1. On the Ubuntu VM, download the GParted 1.3.1 AMD64 ISO from the following site (https://gparted.org/download.php).
