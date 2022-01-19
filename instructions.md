@@ -52,7 +52,7 @@ Insert Description
 
 </br>
 
-## Installing the CUDA Toolkit via NVIDIA's SDK Manager
+## Installing the MVI Edge Pre-Requisites
 
-### Downloading the SDK Manager on the Host VM and Flashing the Jetson NX
-  1. 
+### Installing the CUDA Toolkit via NVIDIA's SDK Manager
+  1. On the Ubuntu VM, go to (https://developer.nvidia.com/nvidia-sdk-manager) and download the NVIDIA SDK Manager 1.7.2 Ubuntu .deb file.
