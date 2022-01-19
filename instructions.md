@@ -36,4 +36,5 @@ Insert Description
 ## Flashing the Jetson Xavier NX
 
 ### Preparing and Executing the Flash
-  1.
+  1. On the VM, download the following .zip file (https://ibm.box.com/v/ssd-disk-mount). Once the download is complete, Right Click the .zip and Extract this to the Desktop location. This should expose the MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2 file.
+  2. 
