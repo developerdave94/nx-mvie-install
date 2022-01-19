@@ -39,4 +39,9 @@ Insert Description
   1. On the VM, download the following .zip file (https://ibm.box.com/v/ssd-disk-mount). Once the download is complete, Right Click the .zip and Extract this to the Desktop location. This should expose the MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2 file.
   2. Open up the casing surrounding the Jetson Xavier NX to expose the Micro USB and REC Button (as shown below).</br>  
 ![Hatch Internals](images/hatch_internals.png)  </br>
-  3. 
+  3. Use the following sequence to put the Jetson NX into Recovery Mode:
+    a. Unplug the Jetson NX Power Cable
+    b. Connect your PC to the Micro USB Port
+    c. Hold the REC Button while plugging in the Power Cable
+    d. Continue to hold the REC Button for 5s and release
+  4. 
