@@ -29,6 +29,7 @@ Insert Description
   8. Restart the Virtual Machine and upon restarting, click inside the VM while repeatedly pressing F2 to be brought back to the BIOS. Tab over to the Boot page using the Arrow keys and go down to where it lists Hard Drive. Hit the (+) key to move it to the top of the list. Once you've done that, tab over to the Exit and then go down to Save Changes and hit Enter twice. Finally, press F10 and Enter to boot.
   9. Open up the Terminal and type `df -h` to validate that /dev/sda1 was increased. The output should look like `/dev/sda1   63G   5.8G    54G   10%   /`. 
 
+
 ## Flashing the Jetson Xavier NX
 
 ### Preparing and Executing the Flash
