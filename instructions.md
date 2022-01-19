@@ -14,4 +14,4 @@ Insert Description
   2. Within 3 days you'll receive an email containing a license key and a link to download VMWare Fusion 12 Pro. Download the software and upon configuration you'll be prompted to enter you license key. 
 
 ### Creating an Ubuntu 18.04 VM
-  1. 
+  1. Download the Ubuntu 18.04.6 LTS (Bionic Beaver) Desktop Image ISO from the following site (https://releases.ubuntu.com/18.04/). 
