@@ -66,8 +66,10 @@ Insert Description
 ### Validate Docker Install and NVIDIA Containers
   1. Validate that docker is installed by typing `docker -v` into the Terminal on the Jetson NX. 
 
+### Creating a Root Install Directory
+  1. Open up the Terminal on the Jetson NX and type `sudo mkdir /opt/ibm` and then `sudo /opt/ibm/vision-edge`. Navigate to that follow to validate that the directory was created by typing `cd /opt/ibm` and `ls` to see the `vision-edge`.
+
 </br>
 
-## Installing MVI Edge
+## Pulling the MVI Edge Containers via IBM Container Registry
 
-### Pulling MVI Edge Runtime Containers From IBM Container Registry
