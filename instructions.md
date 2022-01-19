@@ -43,5 +43,6 @@ Insert Description
     a. Unplug the Jetson NX Power Cable</br>
     b. Connect your PC to the Micro USB Port</br>
     c. Hold the REC Button while plugging in the Power Cable</br>
-    d. Continue to hold the REC Button for 5s and release</br>
+    d. Continue to hold the REC Button for 5s</br>
+    e. Release the REC Button</br>
   4. 
