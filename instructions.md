@@ -4,7 +4,8 @@
 Insert Description
 > NOTE
 
-### Obtaining VMWare Fusion 12 Pro
+### Obtaining VMWare Fusion 12 Pro (OPTIONAL)
+> NOTE: This step is only required if you DO NOT have access to VMWare Fusion.
   1. Send an email to atwreqs@us.ibm.com with the following information to request access to VMWare Fusion 12 Pro.</br>
     a. Job Role (ex. Solutions Engineer)</br>
     b. Request Reason (ex. MVI Edge Client Demo Install)</br> 
