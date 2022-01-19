@@ -71,5 +71,7 @@ Insert Description
 
 </br>
 
-## Pulling the MVI Edge Containers via IBM Container Registry
+## Installing the MVI Edge Application
 
+### Pull Container Image From IBM Container Registry
+  1. Login to the IBM Container 
