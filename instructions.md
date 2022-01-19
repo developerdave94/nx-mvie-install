@@ -58,4 +58,16 @@ Insert Description
   1. On the Ubuntu VM, go to (https://developer.nvidia.com/nvidia-sdk-manager) and download the NVIDIA SDK Manager 1.7.2 Ubuntu .deb.
   > NOTE: This requires a NVIDIA Developer Program Membership. This is free so go ahead and make an account.
   2. Once complete, open up the Terminal on the VM and type `sdkmanager` to launch the SDK. Ignore the Warning prompt and click Yes to proceed. You may be asked to log in using the credentials from the previous step.
-  3. 
+  3. Reconnect your PC to the Jetson NX via the Micro USB Port. When prompted, select Connect to Linux. The SDK should automatically detect the Jetson NX and auto-populate the STEP 01 DEVELOPMENT ENVIRONMENT with the Product Category as Jetson, the Hardware Configuration as Jetson Xavier NX. Make sure that the Target OS is set to Linux JetPack 4.6 and that the Additional SDKs remains unselected. Hit Continue to STEP O2.
+  4. On STEP 02, unselect the Jetson OS and Additional SDKs box. Make sure that the Jetson SDK Components box is checked, as well as Accept the Terms and Conditions at the bottom of the page. Hit Continue to STEP 03 where you'll be prompted to enter your VM Password (ex. `ubuntu`)
+  5. On STEP 03, the IP Address of the Jetson NX should be automatically populated. Enter the Jetson NX Username and Password `mic-710aix` then hit Install. The installation process can take up to 30 mins.
+  6. When the install is complete, open up the Terminal on the Jetson NX and type `dpkg -l | grep cuda` to validate that the CUDA Toolkit v10.2 was installed.
+
+### Validate Docker Install and NVIDIA Containers
+  1. Validate that docker is installed by typing `docker -v` into the Terminal on the Jetson NX. 
+
+</br>
+
+## Installing MVI Edge
+
+### Pulling MVI Edge Runtime Containers From IBM Container Registry
