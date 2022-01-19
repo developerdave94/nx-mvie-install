@@ -57,4 +57,5 @@ Insert Description
 ### Installing the CUDA Toolkit via NVIDIA's SDK Manager
   1. On the Ubuntu VM, go to (https://developer.nvidia.com/nvidia-sdk-manager) and download the NVIDIA SDK Manager 1.7.2 Ubuntu .deb.
   > NOTE: This requires a NVIDIA Developer Program Membership. This is free so go ahead and make an account.
-  2.
+  2. Once complete, open up the Terminal on the VM and type `sdkmanager` to launch the SDK. Ignore the Warning prompt and click Yes to proceed. You may be asked to log in using the credentials from the previous step.
+  3. 
