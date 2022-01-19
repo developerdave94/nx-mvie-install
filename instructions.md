@@ -47,3 +47,5 @@ Insert Description
     e. Release the REC Button</br>
   4. Your PC should then ask whether you'd like to Connect to PC or Connect to Linux. Select Connect to Linux. To confirm that the Jetson NX is connected, open up the Terminal on the VM and type `lsusb`. The output should show something similar to this `Bus Device 003 ID: 0955:7e19 NVidia Corp.`.
   5. In the Terminal, type `cd Desktop` and `sudo tar xvpf MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2` to extract the BSP. Once you've done that, type `cd MIC-710AIX_NX_4.6_V0.2` and `sudo ./nvmflash.sh`. This should begin the flash process which takes about 15 to 20 mins. It should look as follows `Start flashing device: 1-2, PID: XXXX   Ongoing processes: XXXX`.
+  6. Once the flash is complete, you'll see a prompt during the boot process asking you to Select a Storage to Boot or Install OS. Enter `2` which is the dev/sda.
+  7. 
