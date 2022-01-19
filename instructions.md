@@ -37,9 +37,6 @@ Insert Description
 
 ### Preparing and Executing the Flash
   1. On the VM, download the following .zip file (https://ibm.box.com/v/ssd-disk-mount). Once the download is complete, Right Click the .zip and Extract this to the Desktop location. This should expose the MIC-710AIX_NX_4.6_V0.2_DiskFlash.tbz2 file.
-  2. Open up the casing surrounding the Jetson Xavier NX as shown in the following images.</br>  
-Side Screws</br>
-![Side Screws](images/side_screws.png)  
-Bottom Screws</br>
-![Bottom Screws](images/bottom_screws.png) 
-  3.
+  2. Open up the casing surrounding the Jetson Xavier NX to expose the Micro USB and REC Button (as shown below).</br> 
+![Hatch Internals](images/hatch_internals.png) 
+  3. 
