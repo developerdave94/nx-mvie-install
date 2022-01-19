@@ -3,8 +3,6 @@
 </br>
 
 ## Setting Up the Host VM
-Insert Description
-> NOTE
 
 ### Obtaining VMWare Fusion 12 Pro (OPTIONAL)
 > NOTE: This step is only required if you DO NOT have access to VMWare Fusion.
@@ -79,5 +77,4 @@ Insert Description
 
 ### Build the MVI Edge Application
   1. In the Terminal on the Jetson NX while still in the /opt/ibm/vision-edge directory, run the following command: `sudo ./startedge.sh`. A License Agreement will then be displayed. Hit Enter until you've reached the end and type `YES`. The application will now start to build. This could take up to 10 mins.
-  2. Once finished, the Terminal will present a Username, Password, and URL. IMPORTANT: Be sure to save the Password as it will not be shown again.
-  3. Take the URL and use it in the Chromium Browser to launch MVI Edge!!
+  2. Once finished, the Terminal will present a Username, Password, and URL. IMPORTANT: Be sure to save the Password as it will not be shown again. Take the URL and use it in the Chromium Browser to launch MVI Edge!!
