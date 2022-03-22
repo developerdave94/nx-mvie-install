@@ -1,4 +1,4 @@
-# MVI Edge 8.4 Installation on NVIDIA Jetson Xavier NX
+# MVI Edge 8.4 Installation on Advantech MIC-710AIX
 
 </br>
 
